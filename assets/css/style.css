@@ -151,22 +151,30 @@ a:hover {
   background: rgb(102, 102, 102);
 }
 #img1,
-img2 {
+#img2 {
   float: left;
 }
 #img3 {
-  clear: both;
   float: left;
 }
 #img4 {
+  clear:both;
   float: left;
 }
 #img5 {
-  clear: both;
-  float: left;
+]  float: left;
 }
 
-.imgwrap12 {
+.imgwrap1 {
+  float: left;
+  width: 266px;
+  height: 200px;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.imgwrap2 {
   float: left;
   width: 266px;
   height: 200px;
@@ -179,12 +187,13 @@ img2 {
 
   width: 266px;
   height: 200px;
-  clear: both;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 .imgwrap4 {
+  clear:both;
+
   position: relative;
 
   width: 266px;
@@ -198,7 +207,6 @@ img2 {
 
   width: 266px;
   height: 200px;
-  clear: both;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -209,7 +217,7 @@ img2 {
   background: #ef7e51;
   padding-top: 10px;
   padding-bottom: 10px;
-  top: 120px;
+  top: 60%;
   text-align: center;
 }
 .portim {
@@ -247,8 +255,18 @@ img2 {
     overflow:scroll;
     padding-left:8%;
   }
-  
+ .imgwrap3,
+ #img3{
+   float:left;
+ }
+ .imgwrap4,
+ #img4{
+   clear:none;
+   float:left;
+ }
 }
+
+/*SECOND SMALLEST: TABLET*/
 @media screen and (max-width:768px){
   .topContainer{
     width:620px;
@@ -284,7 +302,8 @@ height:calc(10%);
 .nameTop{
   width:30%;
 }
-.imgwrap12,
+.imgwrap1,
+.imgwrap2,
 .imgwrap3,
 .imgwrap4,
 .imgwrap5{
@@ -299,8 +318,24 @@ margin-top:5px;
   width:calc(100%);
     
 }
+.imgwrap3,
+#img3{
+  clear:both;
+  float:left;
 }
+.imgwrap4,
+#img4{
+  clear:none;
+  float:left;
+}
+
+}
+
+/* FOR MOBILE*/
 @media screen and (max-width:640px){
+  .imgCov{
+    top: 75%;
+  }
   .topContainer{
     width:100%;
 
@@ -315,12 +350,24 @@ margin-top:5px;
   background:white;
 
 }
+
 img{
 
-width:100%;
+width:calc(100%);
 height:auto;   
 }
+.imgwrap1,
+.imgwrap2,
+.imgwrap3,
+.imgwrap4,
+.imgwrap5{
+  width:calc(100% - 20px);
+  height:auto;
+  margin-right:5px;
+margin-bottom:0;
+margin-top:5px;
 
+}
 .nameTop{
   position:static;
   width:100%;
@@ -343,6 +390,7 @@ body {
   overflow:scroll;
   
 }
+
 .imgCov{
   width:calc(100%);
     
