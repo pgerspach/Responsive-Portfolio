@@ -305,12 +305,16 @@ height:auto;
   margin:auto;
   text-align: center;
 }
-.content{
-  clear:both;
-}
+
 html,
 body {
   overflow: scroll; /*just keep width to browser width-ignore anything over*/
+}
+.topbackground,
+.topContainer,
+.belowHead,
+.contDiv{
+  overflow:scroll;
 }
 }
 
