@@ -72,7 +72,6 @@ body {
   border: 1px solid rgb(102, 102, 102);
   margin-top: 0px;
   background: white;
-  overflow:scroll;
 }
 .abtme {
   float: left;
@@ -245,6 +244,12 @@ img2 {
   .navBar{
     width: 30%;
   }
+  .imagesCont{
+    position:static;
+    overflow:scroll;
+    padding-left:8%;
+  }
+  
 }
 @media screen and (max-width:768px){
   .topContainer{
@@ -252,6 +257,13 @@ img2 {
 
 
 }
+.icontDiv{
+  padding:0px;
+}
+.imagesCont{
+  padding-left:3%;
+}
+
 .belowHead{
     width:620px;
 }
@@ -263,6 +275,14 @@ img{
   width:calc(40%);
 height:calc(10%);    
 }
+#img1,
+#img2,
+#img3,
+#img4,
+#img5{
+  width:100%;
+  height:auto;
+}
 .nameTop{
   width:30%;
 }
@@ -270,9 +290,16 @@ height:calc(10%);
 .imgwrap3,
 .imgwrap4,
 .imgwrap5{
-  width:calc(40%);
-  height:calc(10%);
+  width:calc(48%);
+  height:auto;
+  margin-right:5px;
+margin-bottom:0;
+margin-top:5px;
 
+}
+.imgCov{
+  width:calc(100%);
+    
 }
 }
 @media screen and (max-width:640px){
@@ -315,6 +342,10 @@ body {
 .belowHead,
 .contDiv{
   overflow:scroll;
+}
+.imgCov{
+  width:calc(100%);
+    
 }
 }
 
