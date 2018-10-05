@@ -1,0 +1,304 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; /*just keep width to browser width-ignore anything over*/
+}
+body {
+  box-sizing: border-box;
+  text-align: center;
+  /* background:rgb(228, 207, 180); */
+  background-image: url("../images/background.jpg");
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+.topbackground {
+  background: white;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+.topContainer {
+  width: 960px;
+  margin: auto;
+  margin-bottom: 0;
+  overflow: auto;
+  background: white;
+  position: relative;
+}
+.nameTop {
+  position: relative;
+  background: rgb(102, 102, 102);
+  padding: 25px;
+  color: white;
+  left: 0%;
+  font-size: 25px;
+  width: 25%; /* get width to size of contents? LOOK UP*/
+  top: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+}
+
+.navBar {
+  position: absolute;
+  padding: 29px;
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 17px;
+  right: 0%;
+  top: 0px;
+  width: 25%;
+  margin: 0px;
+  color: #ef7e51;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+.belowHead {
+  clear: both;
+  width: 960px;
+  /* position: relative;
+    top: 30px; */ /*if something screws up put this back*/
+  margin: auto;
+  margin-top: 30px;
+  overflow: auto; /* used to have height: 100% but that messed up when the browser was resized */
+  margin-bottom: -50px;
+}
+/* display inline block? */
+.content {
+  width: calc(100%);
+  border: 1px solid rgb(102, 102, 102);
+  margin-top: 0px;
+  background: white;
+}
+.abtme {
+  float: left;
+  width: 90%;
+  padding: 20px 0px 20px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 25px;
+  color: #ef7e51;
+  border-bottom: 2px solid rgb(102, 102, 102);
+}
+.contDiv {
+  clear: both;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  overflow: auto;
+}
+img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.bioText {
+  /* font-family: 'Amaranth', sans-serif; */ /*i liked this font*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2;
+}
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: #ef7e51;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+a:hover {
+  color: rgb(102, 102, 102);
+}
+.request {
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding-bottom: 8px;
+  color: rgb(102, 102, 102);
+}
+
+.inp {
+  clear: both;
+  float: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid rgb(102, 102, 102) 1px;
+}
+#msg {
+  height: 350px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#submit {
+  width: 15%;
+  height: 30px;
+  background: #ef7e51;
+  color: white;
+  border: none;
+}
+#submit:hover {
+  color: #ef7e51;
+  background: rgb(102, 102, 102);
+}
+#img1,
+img2 {
+  float: left;
+}
+#img3 {
+  clear: both;
+  float: left;
+}
+#img4 {
+  float: left;
+}
+#img5 {
+  clear: both;
+  float: left;
+}
+
+.imgwrap12 {
+  float: left;
+  width: 266px;
+  height: 200px;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.imgwrap3 {
+  position: relative;
+
+  width: 266px;
+  height: 200px;
+  clear: both;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.imgwrap4 {
+  position: relative;
+
+  width: 266px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.imgwrap5 {
+  position: relative;
+
+  width: 266px;
+  height: 200px;
+  clear: both;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.imgCov {
+  position: absolute;
+  width: 266px;
+  background: #ef7e51;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 120px;
+  text-align: center;
+}
+.portim {
+  color: black;
+}
+.push,
+.foot {
+  height: 50px; /* makes sticky footer work, dont ask why just cherish it*/
+}
+.foot {
+  box-sizing: border-box;
+  width: 100%;
+  background: white;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  height: 65px;
+  color: rgb(102, 102, 102);
+  padding: 20px;
+  font-size: 24px;
+  border-top: 3px solid rgb(102, 102, 102);
+}
+@media screen and (max-width:980px){
+  .topContainer{
+      width:740px;
+    
+  }
+  .belowHead{
+      width:740px;
+  }
+  .navBar{
+    width: 30%;
+  }
+}
+@media screen and (max-width:768px){
+  .topContainer{
+    width:620px;
+
+
+}
+.belowHead{
+    width:620px;
+}
+.navBar{
+  width: 36%;
+}
+img{
+
+  width:calc(40%);
+height:calc(10%);    
+}
+.nameTop{
+  width:30%;
+}
+}
+@media screen and (max-width:640px){
+  .topContainer{
+    width:100%;
+
+
+}
+.belowHead{
+    width:100%;
+}
+.navBar{
+  position: static;
+  width: 100%;
+  z-index:9999999;
+  background:white;
+
+}
+img{
+
+width:100%;
+height:auto;   
+}
+.nameTop{
+  position:static;
+  width:100%;
+  padding:0px;
+  padding-top:25px;
+  padding-bottom: 25px;
+  margin:auto;
+  text-align: center;
+}
+.content{
+  clear:both;
+}
+}
+
