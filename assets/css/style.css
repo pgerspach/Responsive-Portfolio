@@ -10,14 +10,12 @@ body {
   text-align: center;
   /* background:rgb(228, 207, 180); */
   background-image: url("../images/background.jpg");
-  padding: 0px;
-  margin: 0px;
-  height: 100%;
+  background-size: auto;
 }
 .topbackground {
   background: white;
   width: 100%;
-  overflow: auto;
+  overflow: scroll;
   margin-bottom: 0;
   border-bottom: 1px solid rgb(102, 102, 102);
 }
@@ -25,7 +23,7 @@ body {
   width: 960px;
   margin: auto;
   margin-bottom: 0;
-  overflow: auto;
+  overflow: scroll;
   background: white;
   position: relative;
 }
@@ -89,7 +87,7 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 20px;
-  overflow: auto;
+  overflow: scroll;
 }
 img {
   float: left;
@@ -336,6 +334,7 @@ height:auto;
 html,
 body {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .topbackground,
 .topContainer,
