@@ -279,7 +279,6 @@ height:calc(10%);
 .navBar{
   position: static;
   width: 100%;
-  z-index:9999999;
   background:white;
 
 }
