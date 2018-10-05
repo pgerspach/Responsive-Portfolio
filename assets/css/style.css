@@ -4,7 +4,6 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; /*just keep width to browser width-ignore anything over*/
 }
 body {
   box-sizing: border-box;
@@ -308,7 +307,7 @@ height:auto;
 
 html,
 body {
-  overflow: scroll; /*just keep width to browser width-ignore anything over*/
+  overflow: scroll;
 }
 .topbackground,
 .topContainer,
