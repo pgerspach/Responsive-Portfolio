@@ -334,7 +334,6 @@ height:auto;
 html,
 body {
   overflow: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 .topbackground,
 .topContainer,
@@ -347,7 +346,7 @@ body {
     
 }
 #submit{
-  width:auto;
+  width:25%;
 }
 }
 
