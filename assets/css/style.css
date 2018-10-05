@@ -341,6 +341,7 @@ body {
 .belowHead,
 .contDiv{
   overflow:scroll;
+  
 }
 .imgCov{
   width:calc(100%);
