@@ -266,6 +266,14 @@ height:calc(10%);
 .nameTop{
   width:30%;
 }
+.imgwrap12,
+.imgwrap3,
+.imgwrap4,
+.imgwrap5{
+  width:calc(40%);
+  height:calc(10%);
+
+}
 }
 @media screen and (max-width:640px){
   .topContainer{
@@ -287,6 +295,7 @@ img{
 width:100%;
 height:auto;   
 }
+
 .nameTop{
   position:static;
   width:100%;
@@ -298,6 +307,10 @@ height:auto;
 }
 .content{
   clear:both;
+}
+html,
+body {
+  overflow: scroll; /*just keep width to browser width-ignore anything over*/
 }
 }
 
