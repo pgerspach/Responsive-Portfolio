@@ -17,13 +17,13 @@ body {
   width: 100%;
   overflow: scroll;
   margin-bottom: 0;
-  border-bottom: 1px solid rgb(102, 102, 102);
+  border-bottom: 2px solid rgb(102, 102, 102);
 }
 .topContainer {
   width: 960px;
   margin: auto;
   margin-bottom: 0;
-  overflow: scroll;
+  overflow-x: visible;
   background: white;
   position: relative;
 }
@@ -55,6 +55,8 @@ body {
   font-style: normal;
 }
 .belowHead {
+  box-sizing: border-box;
+
   clear: both;
   width: 960px;
   /* position: relative;
@@ -62,14 +64,18 @@ body {
   margin: auto;
   margin-top: 30px;
   overflow: auto; /* used to have height: 100% but that messed up when the browser was resized */
-  margin-bottom: -50px;
+  margin-bottom: -30px;
 }
 /* display inline block? */
 .content {
+  box-sizing: border-box;
+
   width: calc(100%);
-  border: 1px solid rgb(102, 102, 102);
+  border: 2px solid rgb(102, 102, 102);
   margin-top: 0px;
   background: white;
+  overflow: auto;
+
 }
 .abtme {
   float: left;
@@ -87,7 +93,7 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 20px;
-  overflow: scroll;
+  overflow-x:visible;
 }
 img {
   float: left;
@@ -381,6 +387,7 @@ margin-top:5px;
 html,
 body {
   overflow: scroll;
+  overflow-x:visible;
   -webkit-overflow-scrolling: touch;
 }
 .topbackground,
@@ -388,6 +395,7 @@ body {
 .belowHead,
 .contDiv{
   overflow:scroll;
+  overflow-x:visible;
   
 }
 
